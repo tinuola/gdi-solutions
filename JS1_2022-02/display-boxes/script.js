@@ -1,6 +1,6 @@
 // console.log('test')
 
-// Part One
+// PART ONE
 // Variables
 let numOfBoxes = document.getElementById('number-of-boxes')
 
@@ -11,7 +11,7 @@ let container = document.getElementById('container')
 let displayMsg = document.getElementById('display-msg')
 
 
-// Part Two
+// PART TWO
 // Helper functions used inside the Event Listener
 const addBox = () => {  
   let newDiv = document.createElement('div')
@@ -30,7 +30,7 @@ const clearErrorMsg = () => {
 }
 
 
-// Part Three
+// PART THREE
 // Event Listener
 submitBtn.addEventListener('click', function(){
 
