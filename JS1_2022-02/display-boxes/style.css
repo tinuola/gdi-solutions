@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2.5rem;
+}
+
+p, input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#display-msg {
+  display: none;
+}
+
+#container {
+  max-width: 600px;
+  width: 100%;
+  border: 4px dashed gray;
+  margin: 2rem auto 0 auto;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.box {
+  width: 30%;
+  height: 50px;
+  border:2px solid purple;
+}
+
+.box:nth-child(2n + 1){
+  background: thistle;
+}
