@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>v3 - Temperature Converter</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Temperature Converter</h1>
+			<!-- User input field -->
+			<div class="spacing">
+				<label for="">Enter a Number:</label>
+				<input type="number" name="" id="temperature" />
+			</div>
+
+			<!-- Temperature unit choices -->
+			<div class="checkbox-group spacing">
+				<!-- Celcius -->
+				<div class="checkbox-wrap">
+					<input type="radio" name="temp" value="celcius" id="temp-c" />
+					<label for="celcius">Convert to C&#176;</label>
+				</div>
+				<!-- Fahrenheit -->
+				<div class="checkbox-wrap">
+					<input type="radio" name="temp" value="fahrenheit" id="temp-f" />
+					<label for="fahrenheit">Convert to F&#176;</label>
+				</div>
+			</div>
+
+			<!-- Submit Button -->
+			<div class="spacing">
+				<input type="submit" value="Convert Me!" id="submit-btn" />
+			</div>
+
+			<!-- Display confirmation message -->
+			<p id="temp-msg"></p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
