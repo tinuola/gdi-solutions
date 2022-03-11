@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>v3 - Taco Truck App</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Taco Truck App</h1>
+
+			<div class="welcome-block">
+				<p>Welcome to Tasty Tacos!</p>
+				<p>
+					Our truck offer six types of tacos:<br />
+					Beef, Chicken, Pork, Seafood, Tofu and Veggie.
+				</p>
+				<p>Please place your order.</p>
+			</div>
+
+			<!-- User input field -->
+			<div class="spacing">
+				<label for="">Enter taco choice:</label>
+				<input type="text" name="" id="order-input" />
+			</div>
+
+			<!-- Taco Pricing choices -->
+			<div class="checkbox-group spacing">
+				<!-- Choice for a half dozen tacos -->
+				<div class="checkbox-wrap">
+					<input
+						type="radio"
+						name="taco-price"
+						value="taco-half-dozen"
+						id="taco-half-dozen"
+					/>
+					<label for="taco-half-dozen">&#189; Dozen Tacos - $7</label>
+				</div>
+				<!-- Choice for a dozen tacos -->
+				<div class="checkbox-wrap">
+					<input
+						type="radio"
+						name="taco-price"
+						value="taco-dozen"
+						id="taco-dozen"
+					/>
+					<label for="taco-dozen">Dozen Tacos - $10</label>
+				</div>
+			</div>
+
+      <div class="spacing">
+				<label for="">Enter order quantity:</label>
+				<input type="number" name="" id="order-quantity" />
+			</div>
+
+			<!-- Submit button -->
+			<div class="spacing">
+				<input type="submit" value="Place Order" id="submit-btn" />
+			</div>
+
+			<!-- Display confirmation message -->
+			<p id="display-msg"></p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
