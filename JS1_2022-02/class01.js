@@ -28,19 +28,19 @@ console.log("My console said 'Error!' so I kicked it.")
 /* #1 Store a friend's name in a variable. Using any of the four output methods learned, display a greeting using that variable: "Hello <name>, how are you doing today?" */
 
 let friend = 'Jacqueline'
-document.write(`Hello ${friend}, how are you doing today?`)
 console.log(`Hello ${friend}, how are you doing today?`)
-alert(`Hello ${friend}, how are you doing today?`)
-prompt(`Hello ${friend}, how are you doing today?`)
+// document.write(`Hello ${friend}, how are you doing today?`)
+// alert(`Hello ${friend}, how are you doing today?`)
+// prompt(`Hello ${friend}, how are you doing today?`)
 
 
 /* #2 Reassign the value of the variable to a different friend's name and display a new greeting: "<name>! I didn't realize it was you!" */
 
 friend = 'Michelle'
-document.write(`${friend}! I didn't realize it was you!`)
 console.log(`${friend}! I didn't realize it was you!`)
-alert(`${friend}! I didn't realize it was you!`)
-prompt(`${friend}! I didn't realize it was you!`)
+// document.write(`${friend}! I didn't realize it was you!`)
+// alert(`${friend}! I didn't realize it was you!`)
+// prompt(`${friend}! I didn't realize it was you!`)
 
 
 /**** Concatenate and Interpolate ****/
